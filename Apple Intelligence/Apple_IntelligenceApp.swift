@@ -89,12 +89,16 @@ struct AppleIntelligenceChatbotApp: App {
     
     func openNotesInBackground() {
         let appleScriptCommand = """
-        if application "Notes" is not running then
-            tell application "Notes" to activate
-            repeat until application "Notes" is running
+        if application "Notes" is running then
+            tell application "Notes" to quit
+            repeat while application "Notes" is running
                 delay 0.5
             end repeat
         end if
+        tell application "Notes" to activate
+        repeat until application "Notes" is running
+            delay 0.5
+        end repeat
         delay 0.5
         tell application "System Events" to set visible of process "Notes" to false
         """

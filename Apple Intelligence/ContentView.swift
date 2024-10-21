@@ -10,13 +10,19 @@ import AppKit
 
 struct ContentView: View {
     @State private var userInput: String = ""
-    @State private var chatOutput: String = "Welcome to Apple Intelligence Chatbot"
+    @State private var chatOutput: String = "Unofficial Apple Intelligence Chatbot"
 
     var body: some View {
         VStack {
             ScrollView {
                 Text(chatOutput)
                     .padding()
+                
+                Image("logo")
+                          .resizable()  // To allow the image to be resizedaaa
+                          .aspectRatio(contentMode: .fit)  // Fit the image within its container
+                          .frame(width: 80, height: 80)  // Set the desired frameaaaaa
+                          .opacity(0.5)
             }
             .frame(maxWidth: .infinity, maxHeight: 300)
             .background(Color.gray.opacity(0.1))

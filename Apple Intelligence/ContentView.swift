@@ -19,7 +19,7 @@ struct ContentView: View {
                     .padding()
                 
                 Image("logo")
-                          .resizable()  // To allow the image to be resizedaaa
+                          .resizable()  // To allow the image to be resizedaaaa
                           .aspectRatio(contentMode: .fit)  // Fit the image within its container
                           .frame(width: 80, height: 80)  // Set the desired frameaaaaa
                           .opacity(0.5)

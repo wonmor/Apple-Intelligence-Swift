@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		96A379C22CC606F7004AF46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A379A82CC606F5004AF46F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96A379AF2CC606F5004AF46F;
+			remoteInfo = "Apple Intelligence";
+		};
+		96A379CC2CC606F7004AF46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A379A82CC606F5004AF46F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96A379AF2CC606F5004AF46F;
+			remoteInfo = "Apple Intelligence";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96A379B02CC606F5004AF46F /* Apple Intelligence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Intelligence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A379C12CC606F7004AF46F /* Apple IntelligenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple IntelligenceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A379CB2CC606F7004AF46F /* Apple IntelligenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple IntelligenceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		96A379B22CC606F5004AF46F /* Apple Intelligence */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Apple Intelligence";
+			sourceTree = "<group>";
+		};
+		96A379C42CC606F7004AF46F /* Apple IntelligenceTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Apple IntelligenceTests";
+			sourceTree = "<group>";
+		};
+		96A379CE2CC606F7004AF46F /* Apple IntelligenceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Apple IntelligenceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96A379AD2CC606F5004AF46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A379BE2CC606F7004AF46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A379C82CC606F7004AF46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96A379A72CC606F5004AF46F = {
+			isa = PBXGroup;
+			children = (
+				96A379B22CC606F5004AF46F /* Apple Intelligence */,
+				96A379C42CC606F7004AF46F /* Apple IntelligenceTests */,
+				96A379CE2CC606F7004AF46F /* Apple IntelligenceUITests */,
+				96A379B12CC606F5004AF46F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96A379B12CC606F5004AF46F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96A379B02CC606F5004AF46F /* Apple Intelligence.app */,
+				96A379C12CC606F7004AF46F /* Apple IntelligenceTests.xctest */,
+				96A379CB2CC606F7004AF46F /* Apple IntelligenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96A379AF2CC606F5004AF46F /* Apple Intelligence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A379D52CC606F7004AF46F /* Build configuration list for PBXNativeTarget "Apple Intelligence" */;
+			buildPhases = (
+				96A379AC2CC606F5004AF46F /* Sources */,
+				96A379AD2CC606F5004AF46F /* Frameworks */,
+				96A379AE2CC606F5004AF46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				96A379B22CC606F5004AF46F /* Apple Intelligence */,
+			);
+			name = "Apple Intelligence";
+			packageProductDependencies = (
+			);
+			productName = "Apple Intelligence";
+			productReference = 96A379B02CC606F5004AF46F /* Apple Intelligence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96A379C02CC606F7004AF46F /* Apple IntelligenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A379D82CC606F7004AF46F /* Build configuration list for PBXNativeTarget "Apple IntelligenceTests" */;
+			buildPhases = (
+				96A379BD2CC606F7004AF46F /* Sources */,
+				96A379BE2CC606F7004AF46F /* Frameworks */,
+				96A379BF2CC606F7004AF46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A379C32CC606F7004AF46F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				96A379C42CC606F7004AF46F /* Apple IntelligenceTests */,
+			);
+			name = "Apple IntelligenceTests";
+			packageProductDependencies = (
+			);
+			productName = "Apple IntelligenceTests";
+			productReference = 96A379C12CC606F7004AF46F /* Apple IntelligenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96A379CA2CC606F7004AF46F /* Apple IntelligenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A379DB2CC606F7004AF46F /* Build configuration list for PBXNativeTarget "Apple IntelligenceUITests" */;
+			buildPhases = (
+				96A379C72CC606F7004AF46F /* Sources */,
+				96A379C82CC606F7004AF46F /* Frameworks */,
+				96A379C92CC606F7004AF46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A379CD2CC606F7004AF46F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				96A379CE2CC606F7004AF46F /* Apple IntelligenceUITests */,
+			);
+			name = "Apple IntelligenceUITests";
+			packageProductDependencies = (
+			);
+			productName = "Apple IntelligenceUITests";
+			productReference = 96A379CB2CC606F7004AF46F /* Apple IntelligenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96A379A82CC606F5004AF46F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					96A379AF2CC606F5004AF46F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					96A379C02CC606F7004AF46F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 96A379AF2CC606F5004AF46F;
+					};
+					96A379CA2CC606F7004AF46F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 96A379AF2CC606F5004AF46F;
+					};
+				};
+			};
+			buildConfigurationList = 96A379AB2CC606F5004AF46F /* Build configuration list for PBXProject "Apple Intelligence" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96A379A72CC606F5004AF46F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 96A379B12CC606F5004AF46F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A379AF2CC606F5004AF46F /* Apple Intelligence */,
+				96A379C02CC606F7004AF46F /* Apple IntelligenceTests */,
+				96A379CA2CC606F7004AF46F /* Apple IntelligenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96A379AE2CC606F5004AF46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A379BF2CC606F7004AF46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A379C92CC606F7004AF46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96A379AC2CC606F5004AF46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A379BD2CC606F7004AF46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A379C72CC606F7004AF46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96A379C32CC606F7004AF46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96A379AF2CC606F5004AF46F /* Apple Intelligence */;
+			targetProxy = 96A379C22CC606F7004AF46F /* PBXContainerItemProxy */;
+		};
+		96A379CD2CC606F7004AF46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96A379AF2CC606F5004AF46F /* Apple Intelligence */;
+			targetProxy = 96A379CC2CC606F7004AF46F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96A379D32CC606F7004AF46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96A379D42CC606F7004AF46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		96A379D62CC606F7004AF46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Apple Intelligence/Apple_Intelligence.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apple Intelligence/Preview Content\"";
+				DEVELOPMENT_TEAM = Z64KRUX3W3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnseong.Apple-Intelligence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		96A379D72CC606F7004AF46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Apple Intelligence/Apple_Intelligence.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apple Intelligence/Preview Content\"";
+				DEVELOPMENT_TEAM = Z64KRUX3W3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnseong.Apple-Intelligence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		96A379D92CC606F7004AF46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z64KRUX3W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnseong.Apple-IntelligenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple Intelligence.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apple Intelligence";
+			};
+			name = Debug;
+		};
+		96A379DA2CC606F7004AF46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z64KRUX3W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnseong.Apple-IntelligenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple Intelligence.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apple Intelligence";
+			};
+			name = Release;
+		};
+		96A379DC2CC606F7004AF46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z64KRUX3W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnseong.Apple-IntelligenceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Apple Intelligence";
+			};
+			name = Debug;
+		};
+		96A379DD2CC606F7004AF46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z64KRUX3W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnseong.Apple-IntelligenceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Apple Intelligence";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96A379AB2CC606F5004AF46F /* Build configuration list for PBXProject "Apple Intelligence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A379D32CC606F7004AF46F /* Debug */,
+				96A379D42CC606F7004AF46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A379D52CC606F7004AF46F /* Build configuration list for PBXNativeTarget "Apple Intelligence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A379D62CC606F7004AF46F /* Debug */,
+				96A379D72CC606F7004AF46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A379D82CC606F7004AF46F /* Build configuration list for PBXNativeTarget "Apple IntelligenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A379D92CC606F7004AF46F /* Debug */,
+				96A379DA2CC606F7004AF46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A379DB2CC606F7004AF46F /* Build configuration list for PBXNativeTarget "Apple IntelligenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A379DC2CC606F7004AF46F /* Debug */,
+				96A379DD2CC606F7004AF46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96A379A82CC606F5004AF46F /* Project object */;
+}
